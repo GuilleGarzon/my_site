@@ -4,6 +4,7 @@ import { css } from 'theme-ui';
 import { Themed } from '@theme-ui/mdx';
 
 // import Seo
+import Seo from './Seo';
 
 const Layout = ({ children, className }) => (
   <Themed.root>
@@ -36,6 +37,7 @@ const Layout = ({ children, className }) => (
       })}
     />
     {/* Seo Component */}
+    <Seo />
     <main className={className}>{children}</main>
   </Themed.root>
 );

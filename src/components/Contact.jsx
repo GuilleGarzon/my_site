@@ -10,6 +10,7 @@ import { UpDown, UpDownWide, waveAnimation } from '../styles/animations';
 import Footer from './Footer';
 
 // import Contact MDX file;
+import ContactMDX from '../sections/contact.mdx';
 
 const InnerWave = styled.div`
   path {
@@ -54,7 +55,9 @@ const Contact = ({ offset }) => (
       </div>
     </Divider>
     <Content speed={0.4} offset={offset}>
-      <Inner>{/* Contact Component MDX  */}</Inner>
+      <Inner>
+        <ContactMDX />
+      </Inner>
       <Footer />
     </Content>
     <Divider speed={0.1} offset={offset}>

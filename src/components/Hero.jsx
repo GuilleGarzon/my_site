@@ -6,12 +6,15 @@ import Content from '../elements/content';
 import ShapesHero from './shapes/hero';
 
 // import Intro componente MDX
+import IntroMDX from '../sections/intro.mdx';
 
 const Hero = ({ offset }) => (
   <div>
     <ShapesHero offset={offset} />
     <Content sx={{ variant: `texts.bigger` }} speed={0.4} offset={offset}>
-      <Inner>{/* Intro component MDX */}</Inner>
+      <Inner>
+        <IntroMDX />
+      </Inner>
     </Content>
   </div>
 );

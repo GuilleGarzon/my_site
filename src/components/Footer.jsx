@@ -45,7 +45,7 @@ const Footer = () => {
         <Themed.a
           aria-label="Link to the project's GitHub repository"
           sx={{ ml: 2 }}
-          href="https://github.com/makeitrealcamp/gatsbyjs-workshop"
+          href="https://github.com/GuilleGarzon"
         >
           Repository
         </Themed.a>
@@ -53,7 +53,6 @@ const Footer = () => {
         {` `}
         <Themed.a
           aria-label="Link to the workshop author's website"
-          href="https://www.khriztianmoreno.dev"
         >
           @GuillermoGarzon
         </Themed.a>
